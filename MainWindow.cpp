@@ -12,7 +12,7 @@ mainwindow::mainwindow(QWidget *parent) :
   initBoard();
   initShortcuts();
   label = new QLabel();
-  label->setText(tr("中国"));
+  label->setText(tr("中国人"));
   label->setMinimumWidth(150);
   this->setAnimated(false);
   ui->statusBar->addWidget(label);
